@@ -4,8 +4,6 @@ services:
     image: postgres:12.0-alpine
     ports:
        - '5432:5432'
-    volumes:
-      - ./motol/IdeaProjects/unit7
     environment:
       - POSTGRES_DB=app
       - POSTGRES_USER=user
