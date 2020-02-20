@@ -3,7 +3,7 @@ services:
   postgresql:
     image: postgres:12.0-alpine
     ports:
-       - '9999:5432'
+       - '5432:5432'
     volumes:
       - ./data:/var/lib/postgresql/data
     environment:
